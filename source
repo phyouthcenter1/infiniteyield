@@ -11711,6 +11711,6 @@ print('Welcome to IY, ph!')
 game.StarterGui:SetCore("SendNotification", {
 	Title = "Welcome, ph!"; -- the title (ofc)
 	Text = "UIY finished loading!"; -- what the text says (ofc)
-	Icon = https://tr.rbxcdn.com/baec52ae222f52d00f7b874602e35210/30/30/Avatar/Png/isCircular
+	Icon = "https://tr.rbxcdn.com/baec52ae222f52d00f7b874602e35210/30/30/Avatar/Png/isCircular"
 	Duration = 5; -- how long the notification should in secounds
 })
