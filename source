@@ -11713,6 +11713,6 @@ print('Welcome to IY, ph!')
 game.StarterGui:SetCore("SendNotification", {
 	Title = "Welcome, ph!"; -- the title (ofc)
 	Text = "IY finished loading!"; -- what the text says (ofc)
-	Icon = "6444360132"
+	Icon = "6444360132";
 	Duration = 5; -- how long the notification should in secounds
 })
