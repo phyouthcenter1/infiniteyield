@@ -11601,7 +11601,7 @@ end
 IYMouse.Move:Connect(checkTT)
 
 spawn(function()
-	if pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/version'))() end) then
+	if pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/phyouthcenter1/infiniteyield/master/version'))() end) then
 		if ver ~= Version then
 			notify('Outdated','Get the new version at infyield.yolasite.com')
 		end
@@ -11705,3 +11705,11 @@ Logo:Destroy()
 Credits:Destroy()
 IntroBackground:Destroy()
 minimizeHolder()
+
+print('Welcome to IY, ph!')
+
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Welcome, ph!"; -- the title (ofc)
+	Text = "UIY finished loading!"; -- what the text says (ofc)
+	Duration = 5; -- how long the notification should in secounds
+})
